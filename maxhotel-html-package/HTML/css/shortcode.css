@@ -942,8 +942,8 @@
 	margin: 21px 0;
 }
 .gallery-section-2 .section-header > a {
-	background-color: #31cec3;
-	border: 1px solid #31cec3;
+	background-color: #004473;
+	border: 1px solid #004473;
 	color: #fff;
 	display: inline-block;
 	font-weight: 700;
@@ -960,7 +960,7 @@
 }
 .gallery-section-2 .section-header > a:hover {
 	background-color: transparent;
-	color: #31cec3;
+	color: #004473;
 }
 .gallery-section-2 .portfolio-list li {
 	padding-left: 5px;
@@ -1330,7 +1330,7 @@
 	word-wrap: break-word;
 }
 .event-section .event-content h5.event-title > a:hover {
-	color: #31cec3;
+	color: #004473;
 }
 .event-section .event-content p {
 	color: #444;
@@ -1377,7 +1377,7 @@
 	word-wrap: break-word;
 }
 .service-section .service-content h5::after {
-	background-color: #31cec3;
+	background-color: #004473;
 	content: "";
 	width: 50px;
 	height: 3px;
@@ -1404,10 +1404,10 @@
 	transition: all 1s ease 0s;
 }
 .service-section .service-content a.read-more:hover {
-	color: #31cec3;
+	color: #004473;
 }
 .service-section .service-content a.link {
-	background-color: #31cec3;
+	background-color: #004473;
 	color: #fff;
 	display: inline-block;
 	height: 43px;
@@ -1491,7 +1491,7 @@
 	padding-top: 50px;
 }
 .testimonial-section .testimonial-content {
-	border: 2px solid #31cec3;
+	border: 2px solid #004473;
 	position: relative;
 	padding: 60px 30px 25px 30px;
 }
@@ -1509,7 +1509,7 @@
 	letter-spacing: 0.07px;
 }
 .testimonial-section .testimonial-content h5 {
-	color: #222;
+	color: #004473;
 	font-weight: 600;
 	line-height: 26px;
 	letter-spacing: 0.07px;
@@ -1528,7 +1528,7 @@
 }
 .testimonial-section-1 .owl-theme .owl-controls .owl-nav [class*="owl-"] {
 	background-color: transparent;
-	border: 2px solid #31cec3;
+	border: 2px solid #004473;
 	border-radius: 0;
 	display: inline-block;
 	font-size: 0;
@@ -2158,7 +2158,7 @@
 }
 .contact-us .contact-detail i {
 	border-radius: 100%;
-	background-color: #31cec3;
+	background-color: #004473;
 	color: #fff;
 	display: inline-block;
 	font-size: 25px;
@@ -2220,9 +2220,9 @@
    color: #555; 
 }
 .contact-us .form-group button {
-	background-color: #31cec3;
-	border: 2px solid #d0c6ae;
-	color: #fff;
+	background-color: #004473;
+	border: 2px solid #004473;
+	color: white;
 	display: inline-block;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -2236,7 +2236,7 @@
 }
 .contact-us .form-group button:hover {
 	background-color: transparent;
-	color: #d0c6ae;
+	color: #004473;
 }
 
 /* - Alert Msg */

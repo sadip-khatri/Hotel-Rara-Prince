@@ -553,7 +553,7 @@ a {
 	text-transform: uppercase;
 }
 .page-banner .banner-content .breadcrumb li a:hover {
-	color: #31cec3;
+	color: #004473;
 }
 .page-banner .banner-content .breadcrumb li.active {
 	font-weight: 600;
@@ -639,7 +639,7 @@ a {
 	margin: 0 8px;
 }
 .ow-pagination ul li a {
-	border: 1px solid #31cec3;
+	border: 1px solid #004473;
 	border-radius: 100%;
 	background-color: transparent;
 	color: #222;
@@ -662,7 +662,7 @@ a {
 	
 }
 .ow-pagination ul li a:hover {
-	background-color: #31cec3;
+	background-color: #004473;
 	color: #fff;
 }
 
