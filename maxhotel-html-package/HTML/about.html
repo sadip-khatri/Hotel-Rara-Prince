@@ -47,6 +47,12 @@
 	
 	<!-- Custom - Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+			<!-- Swiper CSS -->
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 	
 	<!--[if lt IE 9]>
 		<script src="js/html5/respond.min.js"></script>
@@ -374,20 +380,139 @@
 			</div>
 		  
 			<!-- Content Wrapper -->
-			<div class="owner-wrap">
-			  <!-- Left Image -->
-			  <div class="owner-left">
-				<img src="./images/owner.jpg" alt="Owner">
-			  </div>
-		  
-			  <!-- Right Text -->
-			  <div class="owner-right">
-				<p><strong>Hotel Rara Prince</strong> is proudly owned and managed by Bhim Bahadur Khatri, whose dedication and vision have shaped the hotel into a welcoming haven for travelers. With a strong commitment to hospitality and guest satisfaction, Mr. Khatri brings years of experience and a personal touch to every aspect of the hotel’s operations. His hands-on approach and focus on quality service have earned the trust of countless guests over the years.</p>
-				<p>Beyond just running a hotel, Mr. Khatri believes in creating meaningful experiences for every guest who walks through the door. He is deeply rooted in the values of Nepali warmth and generosity, and this is reflected in the way the hotel is run—from the attentive staff to the cozy, homelike environment. Under his leadership, Hotel Rara Prince continues to grow not just as a business, but as a place where comfort, care, and community come together.</p>
-			  </div>
+
+
+<!-- Swiper Container -->
+<div class="swiper owner-swiper">
+  <div class="swiper-wrapper">
+
+    <!-- Slide 1 -->
+    <div class="swiper-slide">
+      <div class="owner-wrap">
+        <!-- Left Image -->
+        <div class="owner-left">
+          <img src="./images/owner.jpg" alt="Owner">
+        </div>
+        <!-- Right Text -->
+        <div class="owner-right">
+          <p><strong>Hotel Rara Prince</strong> is proudly owned and managed by <strong>Bhim Bahadur Khatri</strong> , whose dedication and vision have shaped the hotel into a welcoming haven for travelers. With a strong commitment to hospitality and guest satisfaction, Mr. Khatri brings years of experience and a personal touch to every aspect of the hotel’s operations. His hands-on approach and focus on quality service have earned the trust of countless guests over the years.</p>
+          <p>Beyond just running a hotel, Mr. Khatri believes in creating meaningful experiences for every guest who walks through the door. He is deeply rooted in the values of Nepali warmth and generosity, and this is reflected in the way the hotel is run—from the attentive staff to the cozy, homelike environment. Under his leadership, Hotel Rara Prince continues to grow not just as a business, but as a place where comfort, care, and community come together.</p>
+        </div>
+		<div class="social" style="display: flex;flex-direction: column;">
+			<div class= "text">
+				<h5 
+				style="text-align: center;
+				color: black;
+				font-weight: bold;
+				padding-left: 15px;">you can also follow Bhim on:</h5>
 			</div>
+			<div class="links">
+				<ul style="display: flex; gap: 20px;color: #004473;justify-content: center;list-style: none;font-size: 2rem;">
+					<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" title="Google"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#" title="behance"><i class="fa fa-behance"></i></a></li>
+				</ul>
+			</div>
+		</div>
+      </div>
+    </div>
+
+    <!-- Slide 2 (Same content, duplicate) -->
+    <div class="swiper-slide">
+      <div class="owner-wrap">
+        <!-- Left Image -->
+        <div class="owner-left">
+          <img src="./images/sirjana.png" alt="Owner">
+        </div>
+        <!-- Right Text -->
+        <div class="owner-right">
+			<p><strong>Sirjana Khatri</strong>, the financial investor behind Hotel Rara Prince, plays a vital role in the hotel's continued growth and success. Currently residing in the United Kingdom, Ms. Khatri has been a steady pillar of support, offering not only financial investment but also strategic guidance that has helped shape the hotel’s long-term vision. Her belief in the potential of Nepali tourism and her trust in the hotel's mission have been key drivers in expanding its reach and maintaining a high standard of service.</p>
+			<p>Though she is based abroad, Sirjana remains deeply connected to the values and aspirations that define Hotel Rara Prince. Her investment is more than financial—it reflects a commitment to creating sustainable opportunities back home, empowering the local team, and enhancing the overall guest experience. Through her involvement, the hotel continues to thrive as a welcoming space where tradition, care, and modern hospitality come together.</p>	
+        </div>
+		<div class="social" style="display: flex;flex-direction: column;margin-bottom: 4%;">
+			<div class= "text">
+				<h5 
+				style="text-align: center;
+				color: black;
+				font-weight: bold;
+				padding-left: 15px;">you can also follow Sirjana on:</h5>
+			</div>
+			<div class="links">
+				<ul style="display: flex; gap: 20px;color: #004473;justify-content: center;list-style: none;font-size: 2rem;">
+					<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" title="Google"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#" title="behance"><i class="fa fa-behance"></i></a></li>
+				</ul>
+			</div>
+		</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Swiper Navigation (Optional)
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+
+  Swiper Pagination (Optional) -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<style>
+  .owner {
+    position: relative;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #004473; /* Optional: Match your color theme */
+    top: 45%; /* Vertically center the buttons */
+    width: 40px;
+    height: 40px;
+  }
+
+  .swiper-button-prev {
+    left: -60px; /* Push to the far left */
+  }
+
+  .swiper-button-next {
+    right: -60px; /* Push to the far right */
+  }
+
+  /* Responsive tweak for smaller screens */
+  @media (max-width: 768px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      left: 10px;
+      right: 10px;
+    }
+  }
+</style>
+
+<!-- Swiper Init -->
+<script>
+  const swiper = new Swiper('.owner-swiper', {
+    loop: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    }
+  });
+</script>
 		  </div>
-		  <style>
+		  <style>	
 				.owner {
   max-width: 80%;
   margin: auto;
